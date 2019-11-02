@@ -28,7 +28,7 @@
 		      world
 		    </div>
 		    <div class="col-sm">
-		      !!! 
+		      !!! (${mode})
 		    </div>
 		</div>
 	</div>	

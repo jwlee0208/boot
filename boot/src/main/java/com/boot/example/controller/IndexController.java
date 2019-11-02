@@ -10,6 +10,7 @@ public class IndexController {
 	@RequestMapping(value = "/")
 	public String index(Model model) throws Exception {
 		model.addAttribute("serverTime", System.currentTimeMillis());
+		model.addAttribute("mode", System.getProperty("mode"));
 		return "index";
 	}
 }
